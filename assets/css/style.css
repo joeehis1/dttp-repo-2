@@ -1,0 +1,35 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "britanic";
+    src: url("../../font/BRITANIC.TTF");
+}
+
+
+body{
+    background-color: rgb(37, 36, 129);
+    margin: 0;
+    color: rgb(167, 181, 211);
+    font-family: "britanic";
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container{
+    width: 900px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+h1, h2{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
